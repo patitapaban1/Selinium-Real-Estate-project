@@ -3,7 +3,6 @@ package com.training.sanity.tests;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -48,8 +47,12 @@ public class LoginTests {
 	@Test
 	public void validLoginTest() {
 		loginPOM.sendUserName("admin");
-		loginPOM.sendPassword("admin@123");
-		loginPOM.clickLoginBtn(); 
+		loginPOM.sendPassword("adminuser@12345");
+		loginPOM.clickLoginBtn();
+				
+		driver.manage().window().maximize();
+				
+		
 		screenShot.captureScreenShot("First");
 	}
 }
