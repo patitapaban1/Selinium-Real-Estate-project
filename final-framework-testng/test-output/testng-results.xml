@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69702" started-at="2019-09-09T04:08:21Z" finished-at="2019-09-09T04:09:30Z">
+  <suite name="Default suite" duration-ms="87462" started-at="2019-09-13T04:22:18Z" finished-at="2019-09-13T04:23:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69702" started-at="2019-09-09T04:08:21Z" finished-at="2019-09-09T04:09:30Z">
-      <class name="com.training.sanity.tests.Trash_RETC_016">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Trash_RETC_016@29ee9faa]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2019-09-09T09:38:21Z" finished-at="2019-09-09T09:38:21Z">
+    <test name="Default test" duration-ms="87462" started-at="2019-09-13T04:22:18Z" finished-at="2019-09-13T04:23:45Z">
+      <class name="com.training.sanity.tests.RETC_049">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_049@29ee9faa]" name="setUpBeforeClass" is-config="true" duration-ms="18" started-at="2019-09-13T09:52:18Z" finished-at="2019-09-13T09:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Trash_RETC_016@29ee9faa]" name="setUp" is-config="true" duration-ms="24981" started-at="2019-09-09T09:38:21Z" finished-at="2019-09-09T09:38:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_049@29ee9faa]" name="setUp" is-config="true" duration-ms="23202" started-at="2019-09-13T09:52:18Z" finished-at="2019-09-13T09:52:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validTrashTest()[pri:0, instance:com.training.sanity.tests.Trash_RETC_016@29ee9faa]" name="validTrashTest" duration-ms="43038" started-at="2019-09-09T09:38:46Z" finished-at="2019-09-09T09:39:29Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="validblogTest()[pri:1, instance:com.training.sanity.tests.RETC_049@29ee9faa]" name="validblogTest" duration-ms="2256" started-at="2019-09-13T09:52:41Z" finished-at="2019-09-13T09:52:43Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//tr[@id='post-5595']//a[@class='row-title'][contains(text(),'ram')]"}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[element click intercepted: Element <a href="http://realestatem1.upskills.in/test-title_mubitha-3/" class="read-more">...</a> is not clickable at point (190, 553). Other element would receive the click: <div class="col-md-8">...</div>
+  (Session info: chrome=77.0.3865.75)
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-UE2E7P7', ip: '192.168.43.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'DESKTOP-UE2E7P7', ip: '9.85.125.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=C:\Users\PATITA~1\AppData\Local\Temp\scoped_dir12408_1309321473}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50158}, acceptInsecureCerts=false, browserVersion=76.0.3809.132, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 064eab2b143643e81c8723cd83989d70
-*** Element info: {Using=xpath, value=//tr[@id='post-5595']//a[@class='row-title'][contains(text(),'ram')]}]]>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=C:\Users\PATITA~1\AppData\Local\Temp\scoped_dir10452_1035027560}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63475}, acceptInsecureCerts=false, browserVersion=77.0.3865.75, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 29f5d6187f8ca8135d03972c974cfd3b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[@id='post-5595']//a[@class='row-title'][contains(text(),'ram')]"}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="http://realestatem1.upskills.in/test-title_mubitha-3/" class="read-more">...</a> is not clickable at point (190, 553). Other element would receive the click: <div class="col-md-8">...</div>
+  (Session info: chrome=77.0.3865.75)
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-UE2E7P7', ip: '192.168.43.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'DESKTOP-UE2E7P7', ip: '9.85.125.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=C:\Users\PATITA~1\AppData\Local\Temp\scoped_dir12408_1309321473}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50158}, acceptInsecureCerts=false, browserVersion=76.0.3809.132, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 064eab2b143643e81c8723cd83989d70
-*** Element info: {Using=xpath, value=//tr[@id='post-5595']//a[@class='row-title'][contains(text(),'ram')]}
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=C:\Users\PATITA~1\AppData\Local\Temp\scoped_dir10452_1035027560}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63475}, acceptInsecureCerts=false, browserVersion=77.0.3865.75, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 29f5d6187f8ca8135d03972c974cfd3b
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -48,11 +44,16 @@ Session ID: 064eab2b143643e81c8723cd83989d70
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at com.training.sanity.tests.Trash_RETC_016.validTrashTest(Trash_RETC_016.java:79)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.training.pom.RETC_049POM.clickReadmore(RETC_049POM.java:63)
+	at com.training.sanity.tests.RETC_049.validblogTest(RETC_049.java:67)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,15 +81,27 @@ Session ID: 064eab2b143643e81c8723cd83989d70
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validTrashTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Trash_RETC_016@29ee9faa]" name="tearDown" is-config="true" duration-ms="1641" started-at="2019-09-09T09:39:29Z" finished-at="2019-09-09T09:39:30Z">
+        </test-method> <!-- validblogTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_049@29ee9faa]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-09-13T09:52:43Z" finished-at="2019-09-13T09:52:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Trash_RETC_016 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_049@29ee9faa]" name="setUp" is-config="true" duration-ms="20177" started-at="2019-09-13T09:52:44Z" finished-at="2019-09-13T09:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validPropertiesTest()[pri:2, instance:com.training.sanity.tests.RETC_049@29ee9faa]" name="validPropertiesTest" duration-ms="39781" started-at="2019-09-13T09:53:04Z" finished-at="2019-09-13T09:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPropertiesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_049@29ee9faa]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-09-13T09:53:44Z" finished-at="2019-09-13T09:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.RETC_049 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
